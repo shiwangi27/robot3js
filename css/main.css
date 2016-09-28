@@ -1,0 +1,56 @@
+body { 
+	margin: 0;
+	background-color: #fff;
+	position: relative;
+}
+
+#canvas { 
+	background-color: #fff;
+    width: 500px;
+    height: 600px;
+    border: 0px solid red; 
+    margin: 10px; 
+    padding: 0px; 
+    position: static; /* fixed or static */
+    top: 100px; 
+    left: 100px; 
+    position:absolute;
+    z-index: 12; 
+}
+
+.plot{
+	background-color: red; 
+}
+
+.line {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.voronoi{
+	z-index: 10;
+}
+
+.links {
+  stroke: #000;
+  stroke-opacity: 0.2;
+}
+
+.polygons {
+  fill: white;
+  stroke: #000;`
+}
+
+.polygons :first-child {
+  fill: #f00;
+}
+
+.sites {
+  fill: #ccc;
+  stroke: #fff;
+}
+
+.sites :first-child {
+  fill: #fff;
+}
