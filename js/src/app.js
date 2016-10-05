@@ -138,7 +138,7 @@ function init()
 	camera.position.y = 1.5;
 
 	// Add controls 
-	controls = new THREE.TrackballControls( camera );
+	controls = new THREE.TrackballControls( camera, container );
 	controls.rotateSpeed = 2.0;
 	controls.zoomSpeed = 1.2;
 	controls.panSpeed = 0.8;
